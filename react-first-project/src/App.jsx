@@ -1,9 +1,11 @@
 import './App.css'
+import BusinessCard from './components/BusinessCard'
+
 
 function App() {
   return (
     <>
-      <h1>Vite + React - Project</h1>
+      <BusinessCard />
     </>
   )
 }
