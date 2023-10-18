@@ -1,11 +1,10 @@
 import Main from "../components/Main"
+import style from "./BusinessCard.module.css"
 
 const BusinessCard = () => {
   return (
-    <div>
-      {/* <div>BusinessCard</div> */}
+    <div className={style.main_container}>
       <Main />
-
     </div>
   )
 }

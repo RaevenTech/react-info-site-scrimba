@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.main_container {
+  margin-top: 2em;
+  width: 19.8em;
+  height: 48.75em;
+  max-width: 19.8em;
+  max-height: 48.75em;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #111215;
+}
