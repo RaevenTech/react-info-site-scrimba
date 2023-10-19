@@ -3,15 +3,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
+}
+
+.image_container {
+  height: 100px;
+
 }
 
 .image {
   width: 100%;
+  height: 310px;
 }
 
 .name {
-  margin: 1.5em 0em 0em 0em;
+  margin: .75em 0em 0em 0em;
 }
 
 .job_title {
@@ -20,16 +25,27 @@
   color: #F3BF99;
 }
 
+.website {
+  margin: 0em;
+}
+
 .portfolio_link {
   color: beige;
   text-decoration: none;
   font-weight: 300;
+  margin: .5em 0em .5em 0em;
+  cursor: pointer;
 }
 
 .btns {
   display: flex;
   align-items: center;
   gap: 1em;
+  cursor: pointer;
+}
+
+.btns>button:hover {
+  box-shadow: inset 0px 0px 8px blue;
 }
 
 .btns>button {
