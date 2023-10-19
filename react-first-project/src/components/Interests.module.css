@@ -1,0 +1,9 @@
+.title {
+  margin: 1em 0em .5em 1.5em;
+}
+
+.about_txt {
+  margin: 0em auto 0em auto;
+  max-width: 16em;
+  font-size: 1rem;
+}
