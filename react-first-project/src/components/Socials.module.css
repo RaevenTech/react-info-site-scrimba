@@ -1,0 +1,21 @@
+.main_container {
+  background-color: black;
+  margin-top: 3em;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social_icons {
+  display: flex;
+  border-radius: 5px;
+  gap: 1em;
+  border: none;
+}
+
+.social_icons>img:hover {
+  box-shadow: 1px 1px 10px 5px #5093E2;
+  border: none;
+  cursor: pointer;
+}

@@ -1,7 +1,9 @@
 import Main from "../components/Main"
 import About from "../components/About"
 import Interests from "../components/Interests"
+import Socials from "../components/Socials"
 import style from "./BusinessCard.module.css"
+
 
 
 const BusinessCard = () => {
@@ -10,6 +12,7 @@ const BusinessCard = () => {
       <Main />
       <About />
       <Interests />
+      <Socials />
     </div>
   )
 }
